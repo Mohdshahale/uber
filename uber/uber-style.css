@@ -1,0 +1,393 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    color: aliceblue;
+    background-color: black;
+    gap: 450px;
+    width: 100%;
+    position: fixed;
+}
+.nav-rightside,.nav-leftside{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    font-size: larger;
+}
+.uber-logo{
+    font-weight: 500;
+    font-size: x-large;
+    font-family: 'UberMoveText-Regular', cursive;
+}
+.basic-button{
+    padding: 8px;
+    border-radius: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+    /* color: aliceblue; */
+    background-color: black;
+    color: aliceblue;
+    border: 0;
+    font-weight: 500;
+    font-size: 14px;
+     
+    
+}
+.basic-button:hover{
+    cursor: pointer;
+    background-color: rgb(22, 22, 22);
+   
+
+}
+
+.nav-sign{
+    background-color: aliceblue;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    
+ 
+    
+    
+
+}
+.nav-sign:hover{
+    cursor: pointer;
+    background: linear-gradient(rgb(205, 203, 203));
+    transition: 1s ease;
+    
+    
+   
+}
+.kl{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 6px;
+    padding-left: 15px;
+     padding-right: 15px;
+    border-radius: 20px;
+    gap: 3px;
+   
+    
+
+}
+.kl:hover{
+    cursor: pointer;
+    background: linear-gradient(rgb(29, 28, 28));
+    transition: 1s ease;
+    
+}
+.kl button{
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+     color: white;
+}
+.basic-button1:hover{
+    cursor: pointer;
+}
+
+/* body start */
+.head-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+   font-weight: 750;
+   font-size: 45px;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* search bar */
+.search-bar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: end;
+}
+.search-location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 48px;
+    background-color: #f3f3f3;
+    border-radius: 6px;
+    gap: 5px;
+    border: 2px solid transparent;
+
+
+}
+.search-location input{
+    width: 270px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    height: 44px;
+}
+.search-location:hover{
+    cursor: pointer;
+}
+.search-location:active{
+    border: 2px solid black;
+    background-color: white;
+    
+   
+}
+.search-location input:hover{
+    cursor: pointer;
+}
+
+
+.search-mini{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 48px;
+    background-color: #f3f3f3;
+    border-radius: 6px;
+    gap: 5px;
+    border: 2px solid transparent;
+
+}
+.search-mini:active{
+     border: 2px solid black;
+    background-color: white;
+}
+.search-mini input{
+    
+    background-color: transparent;
+    border: 0;
+    height: 44px;
+    outline: 0;
+
+}
+.search-mini input:hover{
+    cursor: pointer;
+}
+.search-btn button{
+    height: 51.2px;
+    border-radius: 6px;
+    width: 130px;
+    background-color:  rgb(0, 0, 0);
+    border: 0;
+    color: white;
+    font-size: 17px;
+
+}
+.search-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(25, 24, 24);
+}
+/* login */
+
+.log-in{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    display: flex;
+    gap: 10px;
+    border: 1px solid rgb(236, 228, 228);
+    padding: 30px;
+    border-radius: 12px;
+    align-items: center;
+}
+.login-box button{
+    width: 63px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 9px;
+    
+}
+.login-box button:hover{
+    cursor: pointer;
+    background-color: rgb(25, 24, 24);
+}
+/* suggestion bar */
+.h1-head{
+    display: flex;
+    padding-left: 270px;
+    padding-bottom: 0;
+}
+.part4{
+    display: flex;
+    justify-content: center;
+
+}
+.sug-bar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    gap: 20px;
+    
+    
+}
+.sug-box{
+    display: flex;
+    align-items: center;
+    
+    height: 160px;
+    width: 300px;
+}
+.bar{
+    background-color: #f3f3f3;
+      height: 160px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border-radius: 12px;
+     
+
+}
+.bar-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    
+}
+.bar-right p{
+    margin: 0;
+    font-size: 12px;
+    color: rgb(96, 96, 95);
+}
+.bar-right button{
+    border: 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 85px;
+}
+.bar-right button:hover{
+    cursor: pointer;
+    background-color:rgb(245, 246, 242) ;
+}
+.bar-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+/* login page */
+.login-sec{
+    display: flex;
+    width: 1000px;
+    
+}
+.login-bar{
+    flex: 1;
+}
+.login-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 377px;
+}
+.log-accnd{
+    padding: 14px 25px;
+    border-radius: 10px;
+    border: 0;
+    background-color: black;
+    color: #ffffff;
+    font-size: 16px;
+    margin-right:16px;
+    transition: 1s;
+    
+
+}
+.log-accnd:hover{
+    cursor: pointer;
+    background-color: rgb(36, 36, 36);
+}
+.create-accnd{
+    
+   padding: 0;
+   padding-bottom: 4px;
+    border: 0;
+    border-bottom: 2px solid rgb(160, 159, 159);
+    background-color: transparent;
+    font-size: 16px;
+    margin-right:5px;
+    color: black;
+    transition: 1s;
+}
+.create-accnd:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    
+
+}
+.watch-sec{
+    background-image: url(/image/watch.jpg);
+    
+    width: 500px;
+    height: 160px;
+}
+
+.sign-in-sec{
+      display: flex;
+    width: 1000px;
+    gap: 50px;
+}
+.img-uber{
+    width: 558px;
+    height: 558px;
+}
+/* qr section */
+.qr-section{
+    background-color: #f3f3f3;
+    height: 406px;
+  
+}
+.h1-head1{
+    padding-left: 180px;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+.section-qr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.image-qr{
+    width: 150px;
+    height: 150px;
+}
+.qr1{
+    display: flex;
+    background-color: #ffffff;
+    width:558px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.qr1:hover{
+    cursor: pointer;
+}
